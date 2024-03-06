@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif ;
+}
+
+html,body{
+    background: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url("") no-repeat */
+}
+
+.sign{
+    width: 500px;
+    height: 550px; ;
+    background: rgb(176, 255, 244);
+    border:#333 2px solid (255, 255, 255, .2);
+    color: rgb(36, 32, 32);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 30px 40px;
+}
+.A{
+    font-size: 30px;
+    text-align: center;
+}
+
+.shiva{
+    width: 100%;
+    height: 50px;
+
+    margin: 30px 0;
+}
+
+.shiva input{
+width: 100%;
+height: 100%;
+/* background: transparent; */
+border: none;
+outline: none;
+border: 2px solid #929292;
+border-radius: 40px;
+font-size: 16px;
+padding: 20px 45px 20px 15px;
+ box-shadow: 0 0 10px rgb(66, 34, 34);
+}
+
+.sum .btn{
+    width: 100%;
+    height: 45px;
+    background: #dd8484;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(66, 34, 34);
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+}
+
+.Register{
+    margin-top: 20px;
+}
+
+.Register p a{
+        color: #a992e9;
+       text-decoration: none; 
+}
+
+
+.Register p {
+    font-weight: 700;
+    text-align: center;
+}
+
+.Register p a:hover{
+    text-decoration: underline;
+}

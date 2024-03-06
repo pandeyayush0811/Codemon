@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poopins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: limegreen; */
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.nav2{
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 a{
+    font-size: 2vw;
+    font-weight: 700;
+
+}
+
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.nav a{
+    font-size: 1.1vw;
+}
+
+.nav i{
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+.contant{
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.right{
+    height: 100%;
+    width: 55%;
+    padding: 5vw 5vw;
+}
+.right h1{
+    font-size: 4.2vw;
+    line-height: 4.4vw;
+}
+.right h1 span{
+    color: aquamarine;
+}
+.right p{
+    font-size: 1.2vw;
+    font-family: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 4vw;
+}
+button{
+    font-size: 1.2vw;
+    padding: 1.1vw 2.1vw;
+    background-color: lightgreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.left{
+    height: 100%;
+    width: 45%;
+}
+.left img{
+    height: 100%;
+    width: 100%;
+
+}
+
+@media (max-width:600px) {
+    .nav{
+        background-color: lightseagreen;
+        color: #fff;
+        padding: 0 6vw;
+        height: 70px;
+    }
+
+    .nav h2{
+        font-size: 5.1vw;
+    }
+
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+
+    .nav i{
+        display: block;
+        font-size: 6vw;
+    }
+    .contant{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+    .left{
+       width: 100%;
+       height: 50%;
+    }
+    .right{
+       width: 100%;
+       height: 45%;
+       padding: 4vw 6vw;
+    }
+    .right h1{
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+    .right p{
+        font-size: 4vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+    .contant button{
+        padding: 3vw 6vw;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 3.5vw;
+    }
+}
+
